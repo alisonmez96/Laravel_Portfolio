@@ -1,0 +1,377 @@
+/*
+.banner{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.bannerImg{
+  width: 100%;
+  height: 65%;
+  margin-top: -2%;
+  position: relative;
+}
+.foto{
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 30px;
+  left: 70px;
+}
+.name{
+  position: absolute;
+  top: 30px;
+  left: 30%;
+  color: white;
+}
+.section{
+  position: absolute;
+  top: 70px;
+  left: 30%;
+  color: white;
+}
+.infoPersonal{
+  position: absolute;
+  float: left;
+  width: 5%;
+  height: 30%;
+  top: 140px;
+  left: 30%;
+}
+.age, .phone, .email, .address {
+  color: white;
+  float: left;
+  margin-top: 20%
+}
+.infoPersonalres{
+  position: absolute;
+  float: left;
+  width: 20%;
+  height: 30%;
+  top: 140px;
+  left: 40%;
+}
+.ageres, .phoneres, .emailres, .addressres {
+  color: white;
+  float: left;
+  margin-top: 5%
+}
+.socialmedia{
+  position: absolute;
+  float: left;
+  width: 20%;
+  height: 30%;
+  top: 350px;
+  left: 30%;
+}
+.twitter, .facebook, .linkedin {
+  width: 10%;
+}
+.facebook, .linkedin{
+  margin-left: 5%
+}
+.hi{
+  float: left;
+  margin: 2% 0 0 5%;
+  color: #535c68;
+}
+.hicontainer{
+  width: 60%;
+  margin-left: 5%;
+}
+.hitext{
+  float: left;
+  margin-top: 1%;
+  color: #535c68;
+}
+.cvcontainer{
+  width: 20%;
+  margin-left: 5%;
+}
+.cv{
+  float: left;
+  width : 145px;
+  height : 40px;
+  margin-top: 5%
+}
+.hr{
+  width: 100%;
+  float: left;
+}
+.buttoncontainer{
+  width: 100%;
+  float: left;
+}
+.info{
+  width : 145px;
+  height : 40px;
+  margin-left: 5%;
+}
+.myp{
+  float: left;
+  margin: 2% 0 0 5%;
+  color: #535c68;
+}
+.projects{
+  width: 100%;
+  height: 300px;
+  float: left;
+  margin-top: 1%;
+}
+.project{
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+}
+.imgproject{
+  float: left;
+  width: 30%;
+  height: 300px;
+}
+.pro{
+  width: 100%;
+  height: 300px;
+}
+.containerproject{
+  float: right;
+  width: 70%;
+  height: 300px;
+  color: #535c68;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 1px solid #becbce;
+}
+.titelproject{
+  padding-top: 40px;
+}
+.infoproject{
+  margin-top: -5%;
+  margin-right: 3%;
+}
+.infoprojectcontent, .infoproject{
+  float: right;
+  padding: 5px;
+  border: 1px solid #535c68;
+  border-radius: 5px;
+  color: #4a4a4a;
+}
+.footer{
+  text-align: center;
+  float: left;
+  width: 100%;
+  background-color: #303030;
+  height: 60%;
+  margin-top: 5%;
+  color: white;
+}
+.input{
+  background-color: transparent;
+  padding: 10px;
+  width: 40%;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white
+}
+::placeholder {
+  color: white;
+}
+.btnsend{
+  width: 40%;
+  color: white;
+  border-radius: 20px;
+  background-color: #4a4a4a;
+  border: none;
+  padding: 5px;
+  box-shadow: 1px 1px 10px black;
+}
+.footerleft{
+  height: 90%;
+  width: 30%;
+  float: left;
+  text-align: left;
+  padding: 3% 0 0 5%;
+}
+.footerright{
+  height: 90%;
+  width: 70%;
+  float: right;
+  padding: 5% 0 0 0;
+}
+.infofooter{
+  width: 70%;
+  height: 150px;
+  margin-top: 10%
+}
+.mediafooter{
+  text-decoration:underline;
+  width: 20%
+}
+.copyright{
+  width: 100%;
+  height: 5%;
+  float: left;
+}
+.containertitle{
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+}
+.containertitle h2{
+  text-align: left;
+}
+.line{
+  height: 25px;
+  min-width: 800px;
+  margin: 0 auto 10px;
+  line-height: 25px;
+  font-size: 14px;
+  color: white;
+  padding: 0 0 0 10px;
+  position: relative
+}
+.line:before{
+  content: '';
+  width: 50%;
+  position: absolute;
+  left: 0;
+  height: 25px;
+  top: 0;
+  z-index: -2;
+  background: #d2d6d7;
+}
+.line:after{
+  content: '';
+  background: #303030;
+  height: 25px;
+  transition: 1s;
+  display: block;
+  width: 100%;
+  animation: animate 1 5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.line1:after{
+  max-width: 45%;
+}
+.line2:after{
+  max-width: 35%;
+}
+.line3:after{
+  max-width: 30%;
+}
+.line4:after{
+  max-width: 25%;
+}
+.line5:after{
+  max-width: 40%;
+}
+.line6:after{
+  max-width: 20%;
+}
+@keyframes animate{
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 100%;
+  }
+}
+.titeleducation{
+  color: #becbce;
+  font-weight: bold;
+}
+.titleleft{
+  padding: 2% 0 0 5%;
+  float: left;
+  width: 50%;
+}
+.titleright{
+  padding: 2% 0 0 5%;
+  float: right;
+  width: 50%;
+}
+.educationcontainer{
+  width: 100%;
+  height: 400px;
+  float: left;
+}
+.educleft{
+  width: 50%;
+  height: 400px;
+  float: left;
+  padding: 2% 0 0 5%
+
+}
+.educright{
+  width: 50%;
+  height: 400px;
+  float: right;
+  padding: 2% 0 0 5%
+}
+.educationbar{
+  width: 3%;
+  float: left;
+}
+.school{
+  float: left;
+  margin-left: 10%;
+  font-weight: bold;
+}
+.school2{
+  float: left;
+  margin-left: 10%;
+  font-weight: bold;
+  margin-top: 4%
+}
+.school3{
+  float: left;
+  margin-left: 10%;
+  font-weight: bold;
+  margin-top: 4%
+}
+.diplome{
+  float: left;
+  margin-left: 10%;
+  color: #535c68;
+  width: 50%;
+}
+.year{
+  float: left;
+  margin-left: 10%;
+  color: #becbce;
+  width: 50%;
+}
+.bottomlinks{
+  float: left;
+  margin-top: 5%;
+  margin-left: 45%
+}
+.countercontainer{
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 1%;
+}
+.likeimg{
+  width: 2%;
+  float: left;
+}
+.commentimg{
+  width: 2%;
+  float: left;
+}
+.countp{
+  float: left;
+  width: 3%;
+  height: 50px;
+  margin-left: 1%;
+}
+.likesdiv .commentsdiv{
+  width: 50%;
+  height: 50px;
+  float: left;
+}
+
+
+ */
